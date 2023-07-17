@@ -10,6 +10,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* navbar section */
 nav {
     display: flex;
     justify-content: space-between;
@@ -37,6 +38,7 @@ nav li {
 nav li a {
     text-decoration: none;
     color: #3A3A3A;
+    cursor: pointer;
 }
 
 /* header section */
@@ -88,4 +90,76 @@ nav li a {
     position: absolute;
     right: 8px;
     top: 30px;
+}
+
+
+
+
+
+/* responsive section */
+
+/* 0px to 768px responsive section */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 0 50px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul {
+        margin-top: 30px;
+    }
+
+    .header-title-img-section {
+        margin: 50px 0;
+    }
+
+    .header-main-container {
+        flex-direction: column;
+    }
+
+    .header-left {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+}
+
+
+/* 768px to 992 px responsive section*/
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    body {
+        padding: 0 50px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul {
+        margin-top: 30px;
+    }
+
+    .header-title-img-section {
+        margin: 50px 0;
+    }
+
+    .header-main-container {
+        flex-direction: column;
+    }
+
+    .header-left {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+}
+
+
+/* 992px to 1400px responsive section */
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+
+    body {
+        padding: 0 100px;
+    }
 }
