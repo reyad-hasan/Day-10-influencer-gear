@@ -92,6 +92,17 @@ nav li a {
     top: 30px;
 }
 
+/* company name and logo section */
+.company-container {
+    height: 80px;
+    border: 1px solid #e2e0e0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
 
 
 
@@ -124,6 +135,19 @@ nav li a {
         margin-bottom: 50px;
         text-align: center;
     }
+
+    /* company name and logo responsive */
+    .company-container {
+        height: 0px;
+        border: none;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+
+    .company-container img {
+        margin-right: 40px;
+        margin-bottom: 15px;
+    }
 }
 
 
@@ -153,6 +177,20 @@ nav li a {
         margin-bottom: 50px;
         text-align: center;
     }
+
+    /* company name and logo responsive */
+    .company-container {
+        height: 0px;
+        border: none;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+
+    .company-container img {
+        margin-right: 40px;
+        margin-bottom: 15px;
+    }
+
 }
 
 
@@ -161,5 +199,18 @@ nav li a {
 
     body {
         padding: 0 100px;
+    }
+
+    /* company name and logo responsive */
+    .company-container {
+        height: 0px;
+        border: none;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+
+    .company-container img {
+        margin-right: 40px;
+        margin-bottom: 15px;
     }
 }
