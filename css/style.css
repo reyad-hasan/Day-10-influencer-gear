@@ -91,3 +91,21 @@ nav h2 {
     top: 130px;
     left: 140px;
 }
+
+/* company name and logo section */
+.company-name-section {
+    border: 1px solid;
+    border-image: linear-gradient(to right, transparent, rgba(128, 128, 128, 0.438), transparent);
+    border-left: 0;
+    border-right: 0;
+    border-image-slice: 1;
+    max-width: 1400px;
+    margin: 50px auto;
+    height: 100px;
+}
+
+.company-name-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
