@@ -88,4 +88,14 @@
         right: 122px;
         top: 5400px;
     }
+
+    /* feature collection */
+    .feature-container {
+        flex-direction: column;
+    }
+
+    .feature-img {
+        width: 100%;
+    }
+
 }
