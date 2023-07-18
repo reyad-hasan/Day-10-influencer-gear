@@ -2,30 +2,33 @@
 @media screen and (max-width: 768px) {
     nav {
         flex-direction: column;
-        padding: 50px 100px;
+        margin: 50px auto;
     }
 
     nav>ul {
         margin-top: 20px;
     }
-}
 
-/* 768px to 992px section */
-@media screen and (min-width: 768px) and (max-width: 992px) {
-    nav {
+    .header-title-section {
         flex-direction: column;
+        padding: 50px;
+        flex-direction: column-reverse;
+    }
+    .header-left{
+        text-align: center;
     }
 
-    nav>ul {
-        margin-top: 20px;
-    }
-}
+    .header-right{
+        margin-bottom: 30px;
 
-/* 992px to 1400px section */
-@media screen and (min-width: 992px) and (max-width: 1400px) {
-    nav {
-        /* flex-direction: column; */
-        padding: 50px 150px;
+    }
+    .header-left,
+    .header-right {
+        width: 100%;
+    }
+
+    .header-right img {
+        width: 100%;
     }
 
 }
