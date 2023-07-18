@@ -17,6 +17,7 @@
         font-size: 1.3rem;
     }
 
+    /* header title section */
     .header-title-section {
         flex-direction: column;
         padding: 0 50px 50px;
@@ -53,20 +54,38 @@
         width: 100%;
     }
 
-    .company-name-section{
+    /* company name and logo section */
+    .company-name-section {
         height: 500px;
         width: 90%;
         margin: 50px auto;
     }
 
-    .company-name-container{
+    .company-name-container {
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
-    .company-name-container img{
+
+    .company-name-container img {
         width: 100px;
         padding-bottom: 30px;
     }
 
+    /* collection section */
+    .collection-section .card-container {
+        grid-template-columns: 1fr;
+        gap: 35px;
+        margin: 0 140px;
+    }
+
+    .card {
+        width: 500px;
+        height: 630px;
+    }
+
+    .collection-section .see-more a {
+        right: 122px;
+        top: 5400px;
+    }
 }
