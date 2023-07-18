@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&family=Poppins:wght@300;400;600;700;800&display=swap');
 
 * {
     margin: 0;
@@ -212,13 +212,42 @@ nav h2 {
     font-weight: 600;
     padding: 20px 0;
 }
-.feature-btn{
+
+.feature-btn {
     background: #E02C6D;
     padding: 15px 30px;
     border: 0;
     color: #fff;
     font-size: 1rem;
 }
-.feature-btn .more-right-arrow{
+
+.feature-btn .more-right-arrow {
     padding-left: 7px;
+}
+
+/* footer section */
+.footer-section {
+    padding: 50px 0;
+    text-align: center;
+    background: #0A0826;
+    color: #fff
+}
+
+.footer-section h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.footer-section p {
+    color: #D9DBE1;
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 15px 0;
+    line-height: 25px;
+}
+.web-icon{
+    color: #fff;
+    margin-left: 20px;
+    font-size: 25px;
 }
