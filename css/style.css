@@ -3,10 +3,11 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
 }
 
-body {}
+body {
+    font-family: 'Poppins', sans-serif;
+}
 
 /* navbar section */
 nav {
@@ -36,39 +37,4 @@ nav h2 {
     color: #3A3A3A;
     font-size: 1.5rem;
     font-weight: 700;
-}
-
-
-
-
-/* Responsive section */
-/* max-width 768px section */
-@media screen and (max-width: 768px) {
-    nav{
-        flex-direction: column;
-        padding: 50px 100px;
-    }
-    nav>ul{
-        margin-top: 20px;
-    }
-}
-
-/* 768px to 992px section */
-@media screen and (min-width: 768px) and (max-width: 992px) {
-    nav{
-        flex-direction: column;
-    }
-    nav>ul{
-        margin-top: 20px;
-    }
-}
-
-/* 992px to 1400px section */
-@media screen and (min-width: 992px) and (max-width: 1400px) {
-    nav{
-        flex-direction: column;
-    }
-    nav>ul{
-        margin-top: 20px;
-    }
 }
