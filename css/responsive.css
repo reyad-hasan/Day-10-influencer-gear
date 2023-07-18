@@ -5,8 +5,16 @@
         margin: 50px auto;
     }
 
+    nav h2 {
+        font-size: 2rem;
+    }
+
     nav>ul {
         margin-top: 20px;
+    }
+
+    nav li a {
+        font-size: 1.3rem;
     }
 
     .header-title-section {
@@ -14,14 +22,28 @@
         padding: 50px;
         flex-direction: column-reverse;
     }
-    .header-left{
+
+    .header-left {
         text-align: center;
     }
 
-    .header-right{
+    .header-left h2 {
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
+    .header-right {
         margin-bottom: 30px;
 
     }
+
+    .header-left p {
+        text-align: center;
+        font-size: 1.3rem;
+        font-weight: 500;
+        line-height: normal;
+    }
+
     .header-left,
     .header-right {
         width: 100%;

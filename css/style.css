@@ -45,13 +45,11 @@ nav h2 {
 .header-title-section {
     display: flex;
     max-width: 1400px;
-    margin: 50px auto;
-    border: 1px solid red;
+    margin: 100px auto 0px;
 }
 
 .header-left {
     width: 50%;
-    border: 1px solid blue;
     margin: auto 0;
 }
 
@@ -82,7 +80,6 @@ nav h2 {
 .header-right {
     width: 50%;
     position: relative;
-    border: 1px solid blue;
 }
 
 .header-right img {
